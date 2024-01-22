@@ -57,7 +57,7 @@ nav {
     & > * {
         display: grid;
         grid-auto-flow: column;
-        grid-gap: 24px;
+        grid-column-gap: 24px;
     }
 }
 
@@ -66,9 +66,10 @@ nav {
         font-size: 1rem;
 
         & > * {
-            grid-column-gap: 10px;
+            grid-column-gap: 14px;
         }
     }
+
 
 }
 
