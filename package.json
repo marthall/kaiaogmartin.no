@@ -3,10 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://kaiaogmartin.no",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@notionhq/client": "^2.2.14",
@@ -18,6 +21,7 @@
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.7.0",
+    "gh-pages": "^6.1.1",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
   }
