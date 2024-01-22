@@ -57,20 +57,21 @@ nav {
     & > * {
         display: grid;
         grid-auto-flow: column;
-        grid-gap: 30px;
+        grid-gap: 24px;
     }
 }
 
 @media (max-width: 700px) {
     nav {
         font-size: 1rem;
+
+        & > * {
+            grid-column-gap: 10px;
+        }
     }
 
 }
 
-nav > .back {
-    justify-self: start;
-}
 
 p {
     font-size: 1.2rem;
