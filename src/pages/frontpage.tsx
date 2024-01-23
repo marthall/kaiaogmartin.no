@@ -24,9 +24,9 @@ export default function () {
           hva som skal skje på selve dagen - og alle konkurranselekene dere må
           starte å øve til (neida…).
         </p>
-        <h1>Vielse på Oslo Rådhus</h1>
+        <h1>Vielse i Oslo Rådhus</h1>
         <p>
-          Selve vielsessermonien finner sted på Oslo Rådhus i Munchrommet på
+          Selve vielsessermonien finner sted i Oslo Rådhus i Munchrommet på
           dagen 16.mars klokken 13.00-13.15. En klassisk tradisjonell, offentlig
           og effektiv affære med andre ord. Her er det dessverre begrenset med
           plasser slik at det er nærmeste familie og forlovere som får være med
