@@ -14,19 +14,40 @@ export default function () {
       <div className={"center-container"}>
         <h1>Velkommen</h1>
         <p>
-          Hei og velkommen! Vi gifter oss 16.mars 2024 i Oslo og gleder oss
-          masse til å dele denne dagen med dere ❤️ Vielsen foregår i Oslo rådhus
-          og er for de nærmeste før vi tar turen opp til Grefsenkollen
-          restaurant for fest!
+          Har du forvillet deg inn på denne nettsiden er du sannsynligvis
+          invitert og har takket ja til å komme i vårt bryllup 16.mars. Og det
+          er vi så glad for! Vi gleder oss skikkelig til å dele dagen med de
+          fineste menneskene vi vet om.
         </p>
         <p>
-          På denne siden kommer vi til å poste litt informasjon om hva som skal
-          skje i løpet av dagen.
+          På denne siden kommer vi til å poste endel praktisk informasjon om hva
+          som skal skje på selve dagen - og alle konkurranselekene dere må
+          starte å øve til (neida…).
         </p>
-        <h1>Vielse</h1>
-        <p className={"coming"}>Kommer</p>
-        <h1>Middag og fest</h1>
-        <p className={"coming"}>Kommer</p>
+        <h1>Vielse på Oslo Rådhus</h1>
+        <p>
+          Selve vielsessermonien finner sted på Oslo Rådhus i Munchrommet på
+          dagen 16.mars klokken 13.00-13.15. En klassisk tradisjonell, offentlig
+          og effektiv affære med andre ord. Her er det dessverre begrenset med
+          plasser slik at det er nærmeste familie og forlovere som får være med
+          inn. Det kan være noe kø i sikkerhetskontrollen, så det er lurt å møte
+          opp minst 15 minutter før.
+        </p>
+        <p>
+          For de av dere som ikke er nærmeste familie eller forlovere, så er det
+          aldeles hyggelig dersom dere likevel ønsker å ta turen dit og ta oss i
+          mot på vei ut igjen. Men det er er ingen forventning fra oss - vi ses
+          jo til en hyggelig middag og heidundranes fest kl. 16.00!
+        </p>
+        <h1>
+          Hyggelig middag og heidundranes fest på Grefsenkollen restaurant
+        </h1>
+        <p>
+          Klokken 16.00 er det start av apertiff på flotte Grefsenkollen
+          restaurant over Oslo. Her vil vi etter hvert få servert en deilig
+          treretters middag. Utover kvelden blir det selvfølgelig dans og
+          spillopper!
+        </p>
       </div>
 
       <div className={"container-text"}>
