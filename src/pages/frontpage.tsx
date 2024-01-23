@@ -20,8 +20,8 @@ export default function () {
           fineste menneskene vi vet om.
         </p>
         <p>
-          På denne siden kommer vi til å poste endel praktisk informasjon om hva
-          som skal skje på selve dagen - og alle konkurranselekene dere må
+          På denne siden kommer vi til å poste en del praktisk informasjon om
+          hva som skal skje på selve dagen - og alle konkurranselekene dere må
           starte å øve til (neida…).
         </p>
         <h1>Vielse på Oslo Rådhus</h1>
