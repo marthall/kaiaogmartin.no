@@ -161,6 +161,7 @@ span {
 
 a {
     color: var(--dark-color);
+    font-size: 1.2rem;
 }
 
 .form {
@@ -180,7 +181,8 @@ button {
     border-radius: 2px;
 }
 
-button:hover {
+button:hover:not(:disabled),
+button:active:not(:disabled) {
     background-color: #0c4b3f;
     color: var(--background-color);
     cursor: pointer;
@@ -188,19 +190,65 @@ button:hover {
 
 button:disabled {
     border: none;
-    text-decoration: line-through;
+    cursor: default;
 }
 
 .onskeliste {
     padding-top: 40px;
-
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-column-gap: 50px;
-    grid-row-gap: 30px;
-
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
     text-align: start;
+    align-items: center;
+
+    & > p {
+        margin: 0;
+        text-align: start;
+    }
+
+    & > .name {
+        grid-column: 1 / 2;
+    }
+
+    & > .name-reserved {
+        text-decoration: line-through;
+        grid-column: 1 / 2;
+    }
+
+    & > .link {
+        grid-column: 2 / 3;
+    }
+
+    & > .description {
+        grid-column: 2 / 4;
+    }
+
+    & > .reserve {
+        grid-column: 3 / 4;
+    }
+
+    & > button {
+        min-width: 110px;
+        padding: 4px 8px;
+    }
+
+    & > button.reserved-by-user {
+        border-style: dashed;
+    }
 }
+
+@media (max-width: 700px) {
+    .onskeliste {
+        grid-column-gap: 20px;
+
+        & > * {
+            font-size: 1rem;
+        }
+
+    }
+}
+
 
 @media (max-width: 700px) {
     .top {
@@ -235,13 +283,13 @@ button:disabled {
     }
 
     & > h1 {
-        margin-top: 4rem;
+        margin-top: 2rem;
     }
 }
 
 @media (max-width: 700px) {
     .center-container {
-        padding: 40px;
+        padding: 30px;
         width: 100%;
     }
 }
