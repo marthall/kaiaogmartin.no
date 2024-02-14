@@ -133,28 +133,6 @@ span {
 }
 
 
-.program-list {
-    display: grid;
-    grid-template-columns: 50px 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 8px;
-
-    & p {
-        padding: 0;
-        margin: 0;
-    }
-}
-
-.program-list .time {
-    grid-column: 1/2;
-    justify-self: end;
-}
-
-.program-list .what {
-    grid-column: 2/3;
-    justify-self: start;
-}
-
 .coming {
     font-style: italic;
 }
@@ -263,10 +241,6 @@ button:disabled {
 
     .top h2 {
         font-size: 1.5rem;
-    }
-
-    .program-list {
-        grid-template-columns: 1fr 1fr;
     }
 }
 
