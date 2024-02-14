@@ -54,6 +54,12 @@ export default function () {
           Adrian.
         </p>
       </div>
+      <h2>Allergier</h2>
+      <p>
+        Dersom du er allergisk eller er pesceterianer, vegetarianer, veganer
+        eller lignende er det viktig at du gir oss beskjed på forhånd så vi kan
+        melde fra videre til Grefsenkollen.
+      </p>
     </>
   );
 }
