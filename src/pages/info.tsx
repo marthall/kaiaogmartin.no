@@ -53,13 +53,13 @@ export default function () {
           Vil du gjennomføre en lek istedenfor tale? Gøy! Kontakt toastmaster
           Adrian.
         </p>
+        <h2>Allergier</h2>
+        <p>
+          Dersom du er allergisk eller er pesceterianer, vegetarianer, veganer
+          eller lignende er det viktig at du gir oss beskjed på forhånd så vi
+          kan melde fra videre til Grefsenkollen.
+        </p>
       </div>
-      <h2>Allergier</h2>
-      <p>
-        Dersom du er allergisk eller er pesceterianer, vegetarianer, veganer
-        eller lignende er det viktig at du gir oss beskjed på forhånd så vi kan
-        melde fra videre til Grefsenkollen.
-      </p>
     </>
   );
 }
