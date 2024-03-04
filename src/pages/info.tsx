@@ -27,6 +27,11 @@ export default function () {
           Det er generelt få offentlige parkeringsplasser i rundt Rådhuset. Vika
           P-hus eller Oslo Konserthus P-hus er nærmest.
         </p>
+        <p>
+          Det er ikke tillatt med ballonger, såplebobler, alkohol eller å kaste
+          ris, roseblader eller konfetti. Dette gjelder både inne og utenfor
+          rådhuset.
+        </p>
         <h3>Grefsenkollen Resturant</h3>
         <p>
           Buss <i>56B Grefsenkollen</i> tar deg fra Nydalen eller Storo hele
