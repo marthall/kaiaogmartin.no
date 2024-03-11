@@ -35,7 +35,8 @@ export default function () {
         <h3>Grefsenkollen Resturant</h3>
         <p>
           Buss <i>56B Grefsenkollen</i> tar deg fra Nydalen eller Storo hele
-          veien opp til Grefsenkollen Resturant.
+          veien opp til Grefsenkollen Resturant. Bussen som går kl 15:45 fra
+          Storo ankommer Grefsenkollen i perfekt tid!
         </p>
         <p>
           Dersom du kjører bil er det mange kommunale parkeringsplasser

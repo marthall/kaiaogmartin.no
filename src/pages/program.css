@@ -5,7 +5,7 @@
     display: grid;
     grid-template-columns: auto auto;
     grid-column-gap: 20px;
-    grid-row-gap: 8px;
+    grid-row-gap: 20px;
 
     & p {
         padding: 0;
@@ -21,4 +21,12 @@
 .program-list .what {
     grid-column: 2/3;
     justify-self: start;
+}
+
+.program-list .extra {
+    padding: 0;
+    grid-column: 2/3;
+    justify-self: start;
+    white-space: pre-line;
+    font-size: 0.9em;
 }
