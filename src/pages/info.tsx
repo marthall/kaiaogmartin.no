@@ -9,9 +9,17 @@ export default function () {
 
         <h2>Toastmaster</h2>
         <p>
-          Adrian Austevoll er vår eminente toastmaster. Ta kontakt med ham på
-          telefon <a href="tel:94974009">949 74 009</a> dersom du har lyst til å
-          si noen ord.
+          <s>
+            Adrian Austevoll er vår eminente toastmaster. Ta kontakt med ham på
+            telefon <a href="tel:94974009">949 74 009</a> dersom du har lyst til
+            å si noen ord.
+          </s>
+        </p>
+        <p>
+          Anders Bentsen tar over som toastmaster da Adrian dessverre har blitt
+          syk. Anders er en ringrev med lokalkunnskap om Grefsen og diverse
+          løkkaleker, så dette blir bra. Han kan nåes på telefon{" "}
+          <a href="tel:99468197">994 68 197</a>.
         </p>
 
         <h2>Transport og parkering</h2>
