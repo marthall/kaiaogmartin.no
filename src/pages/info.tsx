@@ -18,7 +18,7 @@ export default function () {
         <p>
           Anders Bentsen tar over som toastmaster da Adrian dessverre har blitt
           syk. Anders er en ringrev med lokalkunnskap om Grefsen og diverse
-          løkkaleker, så dette blir bra. Han kan nåes på telefon{" "}
+          løkkaleker, så dette blir bra. Han kan nås på telefon{" "}
           <a href="tel:99468197">994 68 197</a>.
         </p>
 
